@@ -91,6 +91,7 @@ class Logo {
     }
   }
   startMovement() {
+    console.log("started moving...")
     this.rotateLogoColor();
     setInterval(() => {
       this.movement();
