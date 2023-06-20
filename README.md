@@ -4,3 +4,5 @@
 - Not even done properly
 
 ## I was drunk sorry
+
+- there's a bug where the image goes through the bottom edge
