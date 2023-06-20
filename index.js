@@ -95,6 +95,13 @@ class Logo {
     setInterval(() => {
       this.movement();
     }, this.movementDelay);
+
+    setInterval(() => {
+      console.log({
+        containerBounds: this.containerBounds,
+        position: this.position,
+      });
+    }, 500);
   }
 }
 
